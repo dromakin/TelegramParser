@@ -1,3 +1,19 @@
+"""
+parser
+
+Основной модуль для работы с парсером данных из telegram
+Все функции класса Parser описаны только в этом модуле.
+
+Created at 11.03.2020 by Dmitriy Romakin. Project <Telegram Parser>
+Примеры использования:
+
+$ python parser.py -d -ch https://t.me/CicadaHere -n 1 -c configs/config.ini --csv -p
+$ python parser.py -a -n 2 -c configs/config.ini --csv -p
+
+TODO:
+
+
+"""
 import configparser
 import json
 import csv
