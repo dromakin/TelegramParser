@@ -109,3 +109,9 @@ venv.bak/
 .idea
 .idea/.gitignore
 .idea/misc.xml
+
+# Все лог файлы в папке logs
+logs/*.log
+
+# config.ini содержит приватные ключи
+configs/config.ini
